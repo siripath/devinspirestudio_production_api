@@ -11,12 +11,12 @@ app.use(cors({
   }));
 
 app.get("/test",(req,res)=>{
-    //res.send("ต้องน้อย")
-    const sql = "SELECT * FROM tbl_category";
-    db.query(sql,(err,result)=>{
-        if(err) res.json({message: "Server Error"});
-        return res.json(result);
-    });
+    res.send("ต้องน้อย")
+    // const sql = "SELECT * FROM tbl_category";
+    // db.query(sql,(err,result)=>{
+    //     if(err) res.json({message: "Server Error"});
+    //     return res.json(result);
+    // });
 });
 
 app.listen(9990,()=>{
