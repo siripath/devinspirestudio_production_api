@@ -11,7 +11,7 @@ app.use(cors({
   }));
 
 app.get("/test",(req,res)=>{
-    res.send("ต้องน้อย")
+    res.send("ต้องดาวรักกันมากนะจ๊ะ...");
     // const sql = "SELECT * FROM tbl_category";
     // db.query(sql,(err,result)=>{
     //     if(err) res.json({message: "Server Error"});
